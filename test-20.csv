@@ -1,0 +1,20 @@
+1,success,12.34,comment hello
+2,failure,33,
+3,success,11.22,hello
+4,success,,
+5,failure,,
+6,failure,,
+7,failure,,
+8,failure,12.33,
+9,failure,,
+10,success,,comment
+11,success,50,"asd,xxx"
+12,success,1,"zzz""aaa"
+13,success,1,
+14,success,,
+15,success,,
+16,failure,,
+17,success,,
+18,failure,,
+19,success,,
+20,failure,,
