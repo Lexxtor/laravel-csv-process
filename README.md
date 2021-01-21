@@ -5,7 +5,9 @@
 2. В папке с проектом выполнить: `docker-compose up -d`
 3. Подключиться к PHP контейнеру:`docker-compose exec laravel.test bash`
 4. В нём запустить: `composer install`
-4. Заполнить БД: `./artisan db:seed`
-5. Потом запустить обработчик очереди: `./artisan queue:work --timeout=0`
+5. Заполнить БД: `./artisan db:seed`
+6. Потом запустить обработчик очереди: `./artisan queue:work --timeout=0`
 
 Проект должен стать доступен по адресу: http://localhost обработчик очереди надо держать запущенным.
+
+В корне репозитория есть тестовые CSV файлы.
