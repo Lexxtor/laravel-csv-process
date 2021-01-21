@@ -60,8 +60,8 @@ class ProcessFiles implements ShouldQueue, ShouldBeUnique
                 'state' => $lineData[1],
                 'updated_at' => now(),
             ];
-            if (isset($lineData[2])) $data['amount'] = $lineData[2];
-            if (isset($lineData[3])) $data['comment'] = $lineData[3];
+            if (!empty($lineData[2])) $data['amount'] = $lineData[2];
+            if (!empty($lineData[3])) $data['comment'] = $lineData[3];
 
             DB::table('services')
                 ->where(['id' => $lineData[0]])
